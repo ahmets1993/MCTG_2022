@@ -49,7 +49,7 @@ Check List:
 22. Integration Tests (curl or alternatively a custom app, working automatically) : I prepared a client app as
     alternative to CURL.
 
-Link to GIT: https://github.com/ahmets1993/SWE_MCTG.git
+Link to GIT: https://github.com/ahmets1993/MCTG_2022
 
 Project duration: more than 150 hours, because I wrote this code 3 times. I tried spring and glassfisch frameworks to
 understand REST API better. And this version. Also, I wrote a complete HTTP server. I learned REST API, HTTP protocol,
