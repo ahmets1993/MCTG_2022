@@ -12,15 +12,16 @@ database. The server opens a new thread for each new client and prevents possibl
 
 Battle Logic
 
-Step 1: For each tournament, 4 different players are expected to have entered the same lobby. Step 2: The card decks
-owned by the players entering the lobby are reported to the user. Step 3: The user selects the card pack they want to
-use for battle. Step 4: Each card pack consists of 5 cards. But the game requires 4 cards. For this reason, the user is
-asked to remove a card of his choice. Step 5: The user enters the war lobby with 4 cards. Step 6: After all players have
-entered the war lobby with their cards, the battle begins. Step 7: Per the tournament, the first and second player
-fight. Then the third and fourth players fight. The winners and losers of these wars fight among themselves again. Step
-8: After the tournament is over, the first player receives 5 points, the second receives 3 points, the third receives -1
-points and the fourth -3 points. These points are reflected in the player's elo score in the database. Step 8: Players
-return to the lobby. The data of each finished tournament is cleared from the database at the end of the war.
+Step 1: For each tournament, 4 different players are expected to have entered the same lobby. 
+Step 2: The card decksowned by the players entering the lobby are reported to the user. 
+Step 3: The user selects the card pack they want touse for battle. 
+Step 4: Each card pack consists of 5 cards. But the game requires 4 cards. For this reason, the user isasked to remove a card of his choice. 
+Step 5: The user enters the war lobby with 4 cards. 
+Step 6: After all players haveentered the war lobby with their cards, the battle begins. 
+Step 7: Per the tournament, the first and second playerfight. Then the third and fourth players fight. The winners and losers of these wars fight among themselves again. 
+Step 8: After the tournament is over, the first player receives 5 points, the second receives 3 points, the third receives -1
+points and the fourth -3 points. These points are reflected in the player's elo score in the database. 
+Step 9: Players return to the lobby. The data of each finished tournament is cleared from the database at the end of the war.
 
 Check List:
 
